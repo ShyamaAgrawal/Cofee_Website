@@ -1,0 +1,131 @@
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav{
+    display: flex;
+    height: 100px;
+    background-color:black;
+    border-bottom: 0.2px solid rgb(236, 201, 114);
+    /* justify-content: space-between; */
+    /* position: fixed; top: 0; left: 0;  */
+    position: sticky;
+    top:0px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* nav ul{
+    display: flex;
+} */
+
+ul li{
+    display: inline-block; 
+    font-size: 1.5rem;
+    padding: 10px;
+    /* align-items: baseline; */
+} 
+button a{
+    color: rgb(0, 0, 0);
+}
+#side{
+    display: inline-block;
+    background-color: rgb(25, 24, 24);
+    color: white;
+    width: 50%;
+    height: 80vh;
+    padding: 20px;
+    
+}
+
+#side>p{
+    line-height: 1.5;
+}
+#side button{
+    font-size: larger;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px goldenrod;
+    color: goldenrod;
+}
+body {
+    background-color: black;
+}
+h2{
+    color:palegreen;
+    font-size:x-large;
+}
+.us{
+    color:cyan;
+}
+span{
+    color: white;
+}
+
+section{
+    display: flex;
+    max-width: 100%;
+    min-height: 80%;
+    border: 0.5px solid white;
+    
+}
+#menu{
+    padding: 0;
+    margin: 0;
+    border: none;
+    justify-content:space-between ;
+}
+#menu div{
+    width: 200px;
+    color: white;
+    display: block;
+    border: 0.5px solid white;
+    margin: 1px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+
+    align-items: center;
+}
+.rate{
+    text-decoration:line-through;
+    opacity: 0.5;
+    font-size: smaller;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(221, 191, 117);
+    color: black;
+
+}
+#review{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+#review>div>img:nth-child(3){
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    
+}
+#review div{
+    width: 30%;
+    color: white;
+    display: block;
+    border: 0.5px solid white;
+    margin: 1px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+
+    align-items: center;
+}
